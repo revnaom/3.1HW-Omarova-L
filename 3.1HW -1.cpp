@@ -27,43 +27,43 @@ int main() {
             break;
         }
 
-        month month = static_cast<month>(monthNum);
+        Month month = static_cast<month>(monthNum);
 
         switch (month) {
-        case month::January:
+        case Month::January:
             std::cout << "Январь" << std::endl;
             break;
-        case month::February:
+        case Month::February:
             std::cout << "Февраль" << std::endl;
             break;
-        case month::March:
+        case Month::March:
             std::cout << "Март" << std::endl;
             break;
-        case month::April:
+        case Month::April:
             std::cout << "Апрель" << std::endl;
             break;
-        case month::May:
+        case Month::May:
             std::cout << "Май" << std::endl;
             break;
-        case month::June:
+        case Month::June:
             std::cout << "Июнь" << std::endl;
             break;
-        case month::July:
+        case Month::July:
             std::cout << "Июль" << std::endl;
             break;
-        case month::August:
+        case Month::August:
             std::cout << "Август" << std::endl;
             break;
-        case month::September:
+        case Month::September:
             std::cout << "Сентябрь" << std::endl;
             break;
-        case month::October:
+        case Month::October:
             std::cout << "Октябрь" << std::endl;
             break;
-        case month::November:
+        case Month::November:
             std::cout << "Ноябрь" << std::endl;
             break;
-        case month::December:
+        case Month::December:
             std::cout << "Декабрь" << std::endl;
             break;
         default:
